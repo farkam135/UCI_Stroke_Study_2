@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/backgroundnext">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnext"
+    tools:context=".MainActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/gradient"
         android:fontFamily="'Josefin Sans', sans-serif"
         android:onClick="nextSurvey"
@@ -17,14 +19,13 @@
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
         android:paddingTop="15dp"
-        android:layout_marginBottom="100dp"
-        android:text="OK"
-        android:textColor="#fff"
-        android:textSize="65sp"
-        android:textStyle="bold"
         android:shadowColor="#000000"
         android:shadowDx="2"
         android:shadowDy="2"
-        android:shadowRadius="2" />
+        android:shadowRadius="2"
+        android:text="OK"
+        android:textColor="#fff"
+        android:textSize="65sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
